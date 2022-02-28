@@ -83,18 +83,14 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ [Hello](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) *{}*, My name is *{}*! 
-A telegram group management bot. I'm here to help you to manage your groups.
-I have lots of handy features such as:
-‣ Warning system
-‣ Artificial intelligence
-‣ Flood control system
-‣ Note keeping system
-‣ Filters keeping system
-‣ Approvals and much more.
-
-So what are you waiting for?
-*Add me in your groups and give me full rights to make me function well.*
+PM_START_TEXT = """ [✨𝐇ᴇʟʟᴏ](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) *{}*, 𝐌ʏ 𝐍ᴀᴍᴇ 𝐈s *{}*! 
+𝐀 𝐓ᴇʟᴇɢʀᴀᴍ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ 𝐁ᴏᴛ. 𝐈'ᴍ 𝐇ᴇʀᴇ 𝐓ᴏ 𝐇ᴇʟᴘ 𝐘ᴏᴜ 𝐓ᴏ 𝐌ᴀɴᴀɢᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘs. 𝐈 𝐇ᴀᴠᴇ 𝐋ᴏᴛs 𝐎ғ 𝐇ᴀɴᴅʏ 𝐅ᴇᴀᴛᴜʀᴇs 𝐒ᴜᴄʜ 𝐀s✨ :
+‣ ✨𝐖ᴀʀɴɪɴɢ 𝐒ʏsᴛᴇᴍ✨
+‣ ✨𝐀ʀᴛɪғɪᴄɪᴀʟ 𝐈ɴᴛᴇʟʟɪɢᴇɴᴄᴇ✨
+‣ ✨𝐅ʟᴏᴏᴅ 𝐂ᴏɴᴛʀᴏʟ 𝐒ʏsᴛᴇᴍ✨
+‣ ✨𝐍ᴏᴛᴇ 𝐊ᴇᴇᴘɪɴɢ 𝐒ʏsᴛᴇᴍ✨
+‣ ✨𝐅ɪʟᴛᴇʀs 𝐊ᴇᴇᴘɪɴɢ 𝐒ʏᴇᴛᴇᴍ✨
+‣ ✨𝐀ᴘᴘʀᴏᴠᴀʟs 𝐀ɴᴅ 𝐌ᴜᴄʜ 𝐌ᴏʀᴇ✨
 """
 
 
@@ -164,22 +160,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="➕️ Add me to your chat ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Admin", callback_data="admin_back"),
+        InlineKeyboardButton(text="💫𝐀ᴅᴍɪɴ💫", callback_data="admin_back"),
         InlineKeyboardButton(
-            text="Users", callback_data="user_back"
+            text="✨𝐔sᴇʀs✨", callback_data="user_back"
         ),
     ],
     [
-        InlineKeyboardButton(text="Tools", callback_data="tools_back"),
+        InlineKeyboardButton(text="🦋𝐓ᴏᴏʟs🦋", callback_data="tools_back"),
         InlineKeyboardButton(
-            text="Bot Info", callback_data="yone_"
+            text="𝐁ᴏᴛ 𝐈ɴғᴏ", callback_data="yone_"
         ),
     ],
     [
-        InlineKeyboardButton(text="Helps & Commands❔", callback_data="help_back"),
+        InlineKeyboardButton(text="𝐇ᴇʟᴘs 𝐀ɴᴅ 𝐂ᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
