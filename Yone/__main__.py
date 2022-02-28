@@ -156,25 +156,26 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEXT.format(
                         escape_markdown(first_name), escape_markdown(context.bot.first_name)),
                 reply_markup=InlineKeyboardMarkup([
-[
-                        InlineKeyboardButton(
-                            text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨", url=f"https://t.me/{context.bot.username}?startgroup=true"),
 
-                       InlineKeyboardButton(text="💫𝐇ᴇʟᴘ", callback_data="help_back""),
-                    ],
-                   [
-                       InlineKeyboardButton(text="👅𝐀ᴅᴍɪɴ", callback_data="admin_back"),
-                       InlineKeyboardButton(text="🌈𝐔sᴇʀs", callback_data="user_back""),
-                       InlineKeyboardButton(text="🔔𝐓ooʟs", callback_data="tools_back"),
-                     ],
-                    [                  
-                       InlineKeyboardButton(text="🗯 𝐁ᴏᴛ 𝐈ɴғᴏ", callback_data="yone_"),
-                     ],
-                     [                             
-                       InlineKeyboardButton(
-                             text="📣 𝐂ʜᴀɴɴᴇʟ",
-                             url="https://t.me/DARKAMANCHANNEL")
-                     ], 
+       [
+        InlineKeyboardButton(
+            text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(text="💫𝐀ᴅᴍɪɴ", callback_data="admin_back"),
+        InlineKeyboardButton(
+            text="🔔𝐔sᴇʀs", callback_data="user_back"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="🗯️𝐓ᴏᴏʟs", callback_data="tools_back"),
+        InlineKeyboardButton(
+            text="📣𝐁ᴏᴛ 𝐈ɴғᴏ", callback_data="yone_"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="👅𝐇ᴇʟᴘs 𝐀ɴᴅ 𝐂ᴏᴍᴍᴀɴᴅs👅", callback_data="help_back"),
+    ],                 
 ]),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
