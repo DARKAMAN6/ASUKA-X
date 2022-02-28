@@ -168,13 +168,13 @@ def start(update: Update, context: CallbackContext):
         ),
     ],
     [
-        InlineKeyboardButton(text="🦋𝐓ᴏᴏʟs🦋", callback_data="tools_back"),
+        InlineKeyboardButton(text="📣𝐓ᴏᴏʟs", callback_data="tools_back"),
         InlineKeyboardButton(
-            text="𝐁ᴏᴛ 𝐈ɴғᴏ", callback_data="yone_"
+            text="🗯️𝐁ᴏᴛ 𝐈ɴғᴏ", callback_data="yone_"
         ),
     ],
     [
-        InlineKeyboardButton(text="𝐇ᴇʟᴘs 𝐀ɴᴅ 𝐂ᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="👅𝐇ᴇʟᴘs 𝐀ɴᴅ 𝐂ᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
