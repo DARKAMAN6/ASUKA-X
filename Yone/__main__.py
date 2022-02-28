@@ -83,8 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """[✨Hᴇʟʟᴏ ](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) *{}*, Mʏ Nᴀᴍᴇ Is *{}*\n
-💫A Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ. I'ᴍ Hᴇʀᴇ Tᴏ Hᴇʟᴘ Yᴏᴜ Tᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs. I Hᴀᴠᴇ Lᴏᴛs Oғ Hᴀɴᴅʏ Fᴇᴀᴛᴜʀᴇs💫
+PM_START_TEXT = """[✨𝐇ᴏɪɪ 𝐈'ᴍ ](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) 💫ᴀ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ. I'ᴍ Hᴇʀᴇ Tᴏ Hᴇʟᴘ Yᴏᴜ Tᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs. I Hᴀᴠᴇ Lᴏᴛs Oғ Hᴀɴᴅʏ Fᴇᴀᴛᴜʀᴇs💫
 ───────────────────────\n
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ✘ 𝐉ᴏɪɴ ☞︎︎︎ [𝐒ᴜᴘᴘᴏʀᴛ](t.me/DARKAMANSUPPORT)
