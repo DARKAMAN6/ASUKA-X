@@ -158,21 +158,19 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
 [
                         InlineKeyboardButton(
-                            text="✨𝐀ᴅᴅ 𝐀ʟᴇxᴀ 𝐑ᴏʙᴏᴛ✨",
-                            url="t.me/ALEXA_MANAGER_ROBOT?startgroup=true"),
-                       InlineKeyboardButton(text="𝐕ᴇɴᴏᴍ 𝐑ᴏʙᴏᴛ⚡", url="t.me/GOD_VENOM_ROBOT"),
+                            text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+
+                       InlineKeyboardButton(text="💫𝐇ᴇʟᴘ", callback_data="help_back""),
                     ],
                    [
-                       InlineKeyboardButton(text="🔐 𝐇ᴇʟᴘ", callback_data="help_back"),
-                       InlineKeyboardButton(text="📊 𝐎ᴡɴᴇʀ", url="t.me/BHAGAT_MAHAKAL_KA"),
-                       InlineKeyboardButton(text="🔔 𝐋ᴏɢs", url="t.me/VENOM_ROBOT_LOGS"),
+                       InlineKeyboardButton(text="👅𝐀ᴅᴍɪɴ", callback_data="admin_back"),
+                       InlineKeyboardButton(text="🌈𝐔sᴇʀs", callback_data="user_back""),
+                       InlineKeyboardButton(text="🔔𝐓ooʟs", callback_data="tools_back"),
                      ],
                     [                  
+                       InlineKeyboardButton(text="🗯 𝐁ᴏᴛ 𝐈ɴғᴏ", callback_data="yone_"),
                        InlineKeyboardButton(
-                             text="🗯 𝐒ᴜᴘᴘᴏʀᴛ",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
-                       InlineKeyboardButton(
-                             text="📣 𝐔ᴘᴅᴀᴛᴇs",
+                             text="📣 𝐂ʜᴀɴɴᴇʟ",
                              url="https://t.me/DARKAMANCHANNEL")
                      ], 
 ]),
