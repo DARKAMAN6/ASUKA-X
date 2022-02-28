@@ -164,7 +164,7 @@ def start(update: Update, context: CallbackContext):
     [
         InlineKeyboardButton(text="💫𝐀ᴅᴍɪɴ💫", callback_data="admin_back"),
         InlineKeyboardButton(
-            text="✨𝐔sᴇʀs✨", callback_data="user_back"
+            text="🔔𝐔sᴇʀs", callback_data="user_back"
         ),
     ],
     [
@@ -174,7 +174,7 @@ def start(update: Update, context: CallbackContext):
         ),
     ],
     [
-        InlineKeyboardButton(text="👅𝐇ᴇʟᴘs 𝐀ɴᴅ 𝐂ᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="👅𝐇ᴇʟᴘs 𝐀ɴᴅ 𝐂ᴏᴍᴍᴀɴᴅs👅", callback_data="help_back"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
@@ -251,22 +251,22 @@ def yone_about_callback(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="➕️ Add me to your chat ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Admin", callback_data="admin_back"),
+        InlineKeyboardButton(text="💫𝐀ᴅᴍɪɴ", callback_data="admin_back"),
         InlineKeyboardButton(
-            text="Users", callback_data="user_back"
+            text="🔔𝐔sᴇʀs", callback_data="user_back"
         ),
     ],
     [
-        InlineKeyboardButton(text="Tools", callback_data="tools_back"),
+        InlineKeyboardButton(text="🗯️𝐓ᴏᴏʟs", callback_data="tools_back"),
         InlineKeyboardButton(
-            text="Bot Info", callback_data="yone_"
+            text="📣𝐁ᴏᴛ 𝐈ɴғᴏ", callback_data="yone_"
         ),
     ],
     [
-        InlineKeyboardButton(text="Helps & Commands❔", callback_data="help_back"),
+        InlineKeyboardButton(text="👅𝐇ᴇʟᴘs 𝐀ɴᴅ 𝐂ᴏᴍᴍᴀɴᴅs👅", callback_data="help_back"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
