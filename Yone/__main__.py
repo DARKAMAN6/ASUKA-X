@@ -175,8 +175,7 @@ def start(update: Update, context: CallbackContext):
                        InlineKeyboardButton(
                              text="📣 𝐔ᴘᴅᴀᴛᴇs",
                              url="https://t.me/DARKAMANCHANNEL")
-                     ], 
-    ]  
+                     ],  
 ]),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
