@@ -25,4 +25,4 @@ pillow
 telegraph
 wikipedia
 opencv-python--headless
-pyrogram
+pyrogram~=1.3.10
