@@ -159,14 +159,14 @@ def start(update: Update, context: CallbackContext):
 
        [
                         InlineKeyboardButton(
-                            text="✨𝐀ᴅᴅ 𝐀ʟᴇxᴀ 𝐑ᴏʙᴏᴛ✨",
+                            text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨",
                             url="https://t.me/{context.bot.username}?startgroup=true"),
-                       InlineKeyboardButton(text="𝐕ᴇɴᴏᴍ 𝐑ᴏʙᴏᴛ⚡", url="t.me/VENOM_ROBOT_LOGS"),
+                       InlineKeyboardButton(text="𝐋ᴏɢs⚡", url="t.me/VENOM_ROBOT_LOGS"),
                     ],
                    [
-                       InlineKeyboardButton(text="🔐 𝐇ᴇʟᴘ", callback_data="help_back"),
-                       InlineKeyboardButton(text="📊 𝐎ᴡɴᴇʀ", callback_data="admin_back"),
-                       InlineKeyboardButton(text="🔔 𝐋ᴏɢs", callback_data="tools_back"),
+                       InlineKeyboardButton(text="💫 𝐇ᴇʟᴘ", callback_data="help_back"),
+                       InlineKeyboardButton(text="👅 𝐀ᴅᴍɪɴs", callback_data="admin_back"),
+                       InlineKeyboardButton(text="🔔 𝐓ᴏᴏʟs", callback_data="tools_back"),
                      ],
                     [                  
                        InlineKeyboardButton(text="🗯 𝐒ᴜᴘᴘᴏʀᴛ", callback_data="yone_"),
@@ -192,10 +192,10 @@ def start(update: Update, context: CallbackContext):
             keyboard = InlineKeyboardMarkup([
                 [
                     InlineKeyboardButton(
-                        text="SUPPORT", 
+                        text="💫𝐒ᴜᴘᴘᴏʀᴛ", 
                         url=f"https://t.me/{SUPPORT_CHAT}"),
                     InlineKeyboardButton(
-                        text="DEVLOPER", 
+                        text="✨𝐃ᴇᴠʟᴏᴘᴇʀ", 
                         url=f"https://t.me/{OWNER_USERNAME}")
                     
                 ],
@@ -233,11 +233,11 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="t.me/Yone_Support"),
-                     InlineKeyboardButton(text="News", url="t.me/Yone_Updates"),
+                     InlineKeyboardButton(text="✨𝐒ᴜᴘᴘᴏʀᴛ", url="t.me/DARKAMANSUPPORT"),
+                     InlineKeyboardButton(text="💫𝐍ᴇᴡs", url="t.me/DARKAMANCHANNEL"),
                    ],
                    [
-                    InlineKeyboardButton(text="Back", callback_data="yone_back")
+                    InlineKeyboardButton(text="✈︎𝐁ᴀᴄᴋ", callback_data="yone_back")
                    ]
                 ]
             ),
@@ -248,24 +248,22 @@ def yone_about_callback(update: Update, context: CallbackContext):
                         escape_markdown(first_name), escape_markdown(context.bot.first_name)),
                 reply_markup=InlineKeyboardMarkup([
     [
-        InlineKeyboardButton(
-            text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨", url=f"https://t.me/{context.bot.username}?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(text="💫𝐀ᴅᴍɪɴ", callback_data="admin_back"),
-        InlineKeyboardButton(
-            text="🔔𝐔sᴇʀs", callback_data="user_back"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="🗯️𝐓ᴏᴏʟs", callback_data="tools_back"),
-        InlineKeyboardButton(
-            text="📣𝐁ᴏᴛ 𝐈ɴғᴏ", callback_data="yone_"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="👅𝐇ᴇʟᴘs 𝐀ɴᴅ 𝐂ᴏᴍᴍᴀɴᴅs👅", callback_data="help_back"),
-    ],
+                        InlineKeyboardButton(
+                            text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨",
+                            url="https://t.me/{context.bot.username}?startgroup=true"),
+                       InlineKeyboardButton(text="𝐋ᴏɢs⚡", url="t.me/VENOM_ROBOT_LOGS"),
+                    ],
+                   [
+                       InlineKeyboardButton(text="💫 𝐇ᴇʟᴘ", callback_data="help_back"),
+                       InlineKeyboardButton(text="👅 𝐀ᴅᴍɪɴs", callback_data="admin_back"),
+                       InlineKeyboardButton(text="🔔 𝐓ᴏᴏʟs", callback_data="tools_back"),
+                     ],
+                    [                  
+                       InlineKeyboardButton(text="🗯 𝐒ᴜᴘᴘᴏʀᴛ", callback_data="yone_"),
+                       InlineKeyboardButton(
+                             text="📣 𝐔ᴘᴅᴀᴛᴇs",
+                             url="https://t.me/DARKAMANCHANNEL")
+                     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
