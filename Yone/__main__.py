@@ -160,8 +160,8 @@ def start(update: Update, context: CallbackContext):
        [
                         InlineKeyboardButton(
                             text="✨𝐀ᴅᴅ 𝐀ʟᴇxᴀ 𝐑ᴏʙᴏᴛ✨",
-                            url="t.me/ALEXA_MANAGER_ROBOT?startgroup=true"),
-                       InlineKeyboardButton(text="𝐕ᴇɴᴏᴍ 𝐑ᴏʙᴏᴛ⚡", url="t.me/GOD_VENOM_ROBOT"),
+                            url="https://t.me/{context.bot.username}?startgroup=true"),
+                       InlineKeyboardButton(text="𝐕ᴇɴᴏᴍ 𝐑ᴏʙᴏᴛ⚡", url="t.me/VENOM_ROBOT_LOGS"),
                     ],
                    [
                        InlineKeyboardButton(text="🔐 𝐇ᴇʟᴘ", callback_data="help_back"),
