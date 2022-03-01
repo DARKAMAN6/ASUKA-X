@@ -160,7 +160,7 @@ def start(update: Update, context: CallbackContext):
        [
                         InlineKeyboardButton(
                             text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨",
-                            url="https://t.me/{context.bot.username}?startgroup=true"),
+                            url="https://t.me/ASUKA_X_ROBOT?startgroup=true"),
                        InlineKeyboardButton(text="𝐋ᴏɢs⚡", url="t.me/VENOM_ROBOT_LOGS"),
                     ],
                    [
@@ -250,7 +250,7 @@ def yone_about_callback(update: Update, context: CallbackContext):
     [
                         InlineKeyboardButton(
                             text="✨𝐀ᴅᴅ 𝐀sᴜᴋᴀ 𝐑ᴏʙᴏᴛ✨",
-                            url="https://t.me/{context.bot.username}?startgroup=true"),
+                            url="https://t.me/ASUKA_X_ROBOT?startgroup=true"),
                        InlineKeyboardButton(text="𝐋ᴏɢs⚡", url="t.me/VENOM_ROBOT_LOGS"),
                     ],
                    [
