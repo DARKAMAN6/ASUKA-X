@@ -165,8 +165,8 @@ def start(update: Update, context: CallbackContext):
                     ],
                    [
                        InlineKeyboardButton(text="🔐 𝐇ᴇʟᴘ", callback_data="help_back"),
-                       InlineKeyboardButton(text="📊 𝐎ᴡɴᴇʀ", url="t.me/BHAGAT_MAHAKAL_KA"),
-                       InlineKeyboardButton(text="🔔 𝐋ᴏɢs", url="t.me/VENOM_ROBOT_LOGS"),
+                       InlineKeyboardButton(text="📊 𝐎ᴡɴᴇʀ", callback_data="admin_back"),
+                       InlineKeyboardButton(text="🔔 𝐋ᴏɢs", callback_data="tools_back"),
                      ],
                     [                  
                        InlineKeyboardButton(
