@@ -169,9 +169,7 @@ def start(update: Update, context: CallbackContext):
                        InlineKeyboardButton(text="🔔 𝐋ᴏɢs", callback_data="tools_back"),
                      ],
                     [                  
-                       InlineKeyboardButton(
-                             text="🗯 𝐒ᴜᴘᴘᴏʀᴛ",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(text="🗯 𝐒ᴜᴘᴘᴏʀᴛ", callback_data="yone_"),
                        InlineKeyboardButton(
                              text="📣 𝐔ᴘᴅᴀᴛᴇs",
                              url="https://t.me/DARKAMANCHANNEL")
