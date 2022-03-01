@@ -146,3 +146,6 @@ async def cancelled(msg):
 #         return False
 
 
+__mod_name__ = "stringgen"
+
+__help__ = """
