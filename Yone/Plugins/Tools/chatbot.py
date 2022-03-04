@@ -8,7 +8,7 @@ import yone.database.kuki_sql as sql
 from time import sleep
 from yone import ParseMode
 from yone import dispatcher, updater, SUPPORT_CHAT
-from yone.plugins.log_channel import gloggable
+from yone.plugins.Admin.log_channel import gloggable
 from telegram import (CallbackQuery, Chat, MessageEntity, InlineKeyboardButton,
                       InlineKeyboardMarkup, Message, ParseMode, Update, Bot, User)
 
