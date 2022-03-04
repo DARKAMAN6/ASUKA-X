@@ -5,7 +5,7 @@ from threading import RLock
 from yone import (
     DEL_CMDS,
     DEV_USERS,
-    DRAGONS,
+    REQUESTER,
     SUPPORT_CHAT,
     DEMONS,
     TIGERS,
